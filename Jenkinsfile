@@ -37,6 +37,14 @@ pipeline
 			}
 			
 		}
+			stage ('Test Stage')
+		{
+			steps
+			{
+				sh 'mvn test'
+			}
+			
+		}
 		stage ('Build Success')
 		{
 			steps 
