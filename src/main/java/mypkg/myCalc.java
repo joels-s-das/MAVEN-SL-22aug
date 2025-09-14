@@ -8,7 +8,7 @@ public class myCalc {
 	int mod(int a, int b) { return a%b; }
 	public void branch() 
 	{  
-		System.out.println(" Hello from master branch ");
+		System.out.println(" Hello from dev branch ");
 	}
 
 	public static void main(String[] args) {
